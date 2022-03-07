@@ -5,6 +5,7 @@ html {
   font-family: sans-serif;
 }
 
+/* Header */
 
 header {
   display: flex;
@@ -12,23 +13,61 @@ header {
   align-items: center;
   background-color: #1F2937;
   color: #F9FAF8;
-
 }
 
-header h1 {
+header p {
   font-size: 24px;
 }
 
 ul {
   display: inline-flex;
   gap: 20px;
+  list-style-type: none;
 }
 
-li,
-a {
-  list-style-type: none;
+li a {
   text-decoration: none;
   color: #F9FAF8;  
 }
 
+/* Top Section */
 
+.top {
+  display: flex;
+  justify-content: space-around;
+  padding: 75px;
+  background-color: #1F2937;
+  color: #F9FAF8;
+}
+
+.left {
+  width: 350px;
+}
+
+.right {
+  
+}
+
+.top h1 {
+  font-size: 36px;
+  font-weight: bolder;
+  margin-bottom: 5px
+}
+
+.top p {
+  font-size: 18px;
+  margin: 10px auto;
+}
+
+button {
+  padding: 8px 32px;
+  border-radius: 10px;
+  background-color: #3882F6;
+}
+
+button a {
+  text-decoration: none;
+  color: #F9FAF8;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
