@@ -60,13 +60,13 @@ li a {
   margin: 10px auto;
 }
 
-button {
+.top button {
   padding: 8px 32px;
   border-radius: 10px;
   background-color: #3882F6;
 }
 
-button a {
+.top button a {
   text-decoration: none;
   color: #F9FAF8;
   font-weight: bold;
@@ -125,3 +125,40 @@ figcaption {
 
 /* Sign Up Section */
 
+.sign-up {
+  padding: 100px;
+}
+
+.blue-box {
+  padding: 25px 75px;
+  background-color: #3882F6;
+  border-radius: 10px;
+  color:#F9FAF8;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.left h3 {
+  font-size: 22px;
+  margin: 0;
+}
+
+.left p {
+  margin: 0;
+}
+
+.right button {
+  padding: 10px 40px;
+  border-radius: 10px;
+  background-color: #3882F6;
+  display: inline-flex;
+  border-color: #E5E7EB;
+  }
+  
+.right button a {
+  text-decoration: none;
+  color: #F9FAF8;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+}
