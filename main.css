@@ -45,11 +45,12 @@ li a {
 }
 
 .right {
-  
+  display: flex;
+  overflow: hidden;
 }
 
-.top h1 {
-  font-size: 36px;
+.top h2 {
+  font-size: 48px;
   font-weight: bolder;
   margin-bottom: 5px
 }
@@ -71,3 +72,56 @@ button a {
   font-weight: bold;
   letter-spacing: 0.25px;
 }
+
+/* Tile Section */
+
+.tile {
+  text-align: center;
+  padding: 10px 0 50px 0;
+  
+}
+
+.tile h2 {
+  font-size: 36px;
+  font-weight: bolder;
+}
+
+.tile-container {
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+  gap: 50px
+}
+
+.tile-item {
+  width: 160px;
+}
+
+.tile-item img {
+  border: 5px solid #3882F6;
+  border-radius: 15px;
+}
+
+/* Quote Section */
+
+.quote {
+  background-color: #E5E7EB;
+  padding: 75px 0;
+}
+
+figure blockquote {
+  font-size: 36px;
+  font-style: italic;
+  margin: 0 auto;
+  width: 790px;
+}
+
+figcaption {
+  display: inline-block;
+  margin-left: 65%;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+/* Sign Up Section */
+
