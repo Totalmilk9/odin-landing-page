@@ -130,7 +130,8 @@ figcaption {
 }
 
 .blue-box {
-  padding: 25px 75px;
+  padding: 25px;
+  margin: 0 150px;
   background-color: #3882F6;
   border-radius: 10px;
   color:#F9FAF8;
@@ -161,4 +162,13 @@ figcaption {
   color: #F9FAF8;
   font-weight: bold;
   letter-spacing: 0.25px;
+}
+
+/* Footer */
+
+footer {
+  text-align: center;
+  padding: 25px;
+  background-color: black;
+  color:#E5E7EB
 }
